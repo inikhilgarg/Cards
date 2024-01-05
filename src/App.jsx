@@ -33,7 +33,7 @@ export default function App(){
     }
   ]
   return (
-    <div className="text-white w-full m-auto" style={{backgroundColor:"#1F1F39"}}>  
+    <div className="text-white w-full h-full m-auto" style={{backgroundColor:"#1F1F39"}}>  
       <div className="mt-20">
         <Slider {...settings}>
         {data.map((e,index)=><Slides key={index} obj={e}/>)} 

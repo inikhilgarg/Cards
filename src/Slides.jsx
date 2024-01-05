@@ -7,7 +7,7 @@ export default function Slides({obj}){
     // eslint-disable-next-line react/prop-types
     const {image,heading,para,button}=obj;
     return (
-        <div className="h-auto" style={{backgroundColor:bg}}>
+        <div className="h-full" style={{backgroundColor:bg}}>
             <div className="p-8" >
             {button=="false"?<p className="text-right cursor-pointer">Skip</p>:<></>}
             <div className="flex justify-center items-center h-64">
